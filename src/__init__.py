@@ -1,0 +1,2 @@
+"""Financial Report RAG Assistant."""
+

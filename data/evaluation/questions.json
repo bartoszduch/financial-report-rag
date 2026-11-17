@@ -1,0 +1,21 @@
+{
+  "description": "Small synthetic evaluation dataset. These IDs are examples and must be replaced with labels for your report corpus.",
+  "queries": [
+    {
+      "id": "sample-1",
+      "question": "What were the reported revenue drivers?",
+      "reference_answer": "The report describes the main revenue drivers in its operating results section.",
+      "relevant_chunk_ids": ["replace-with-deterministic-chunk-id"],
+      "expected_numbers": [],
+      "expected_currencies": [],
+      "unsupported": false
+    },
+    {
+      "id": "negative-1",
+      "question": "What is the projected stock price for Q4 2028?",
+      "reference_answer": "Insufficient information in the provided document.",
+      "relevant_chunk_ids": [],
+      "unsupported": true
+    }
+  ]
+}
